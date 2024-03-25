@@ -4,7 +4,7 @@
     --cor-paragrafo-primaria: #ADB5BD;
     --cor-paragrafo-secundaria: #CED4DA;
     --cor-enfase: #364FC7;
-    --background-color-primaria: #191C1F;
+    --background-color-header: #191C1F;
     --background-color-secundaria: #212529;
     --background-color-button: #4C6EF5;
     --background-color-button-modal: #343A40;
@@ -15,3 +15,6 @@
     --font-text2: 18px;
     --font-text3: 16px;    
 }
+
+
+
