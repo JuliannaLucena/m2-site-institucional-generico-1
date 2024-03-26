@@ -2,7 +2,9 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
-    font-family: 'Inter', sans-serif;             
+    font-family: 'Inter', sans-serif;
+    position: relative;
+                 
 }
 
 /*Conteudo do header*/
@@ -13,7 +15,12 @@ body {
     border-bottom: 2px solid var(--background-color-button);
     display: flex;
     justify-content: space-between;
-    align-items: center;      
+    align-items: center;
+    max-width: 1980px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;      
 }
 
 .header__elements img {
@@ -38,7 +45,8 @@ body {
     display: flex;
     flex-direction: column;   
     align-items: center;
-    gap: 44px;        
+    gap: 44px;
+    max-width: 1920px;        
 }
 
 .first__section__elements h1 {
@@ -71,7 +79,8 @@ h1 > span {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 82px 236px;    
+    padding: 82px 236px;
+    max-width: 1920px;    
 }
 
 .second__section__elements h2 {
@@ -94,13 +103,16 @@ h1 > span {
     display: flex;
     justify-content: space-between;
     padding: 82px 236px;    
-    gap: 56px;  
+    gap: 56px;
+    max-width: 1920px;      
 }
 
 .third__section__lado__esquerdo__elements {
     display: flex;
     flex-direction: column;
-    gap: 33px;    
+    gap: 33px;
+    position: sticky;
+    top: 200px;           
 }
 
 .third__section__lado__esquerdo__elements h2 {
@@ -160,6 +172,7 @@ h1 > span {
     padding: 82px 236px;
     gap: 56px;    
     justify-content: space-between;
+    max-width: 1920px;
 }
 
 
@@ -170,6 +183,8 @@ h1 > span {
     flex-direction: column;
     gap: 35px;
     width: 400px;
+    position: sticky;
+    top: 200px;
 
 }
 
@@ -231,6 +246,7 @@ h1 > span {
     display: flex;
     align-items: center;
     padding: 50px 775px;
+    max-width: 1920px;
 }
 
 
