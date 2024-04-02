@@ -8,12 +8,12 @@
     --background-color-secundaria: #212529;
     --background-color-button: #4C6EF5;
     --background-color-button-modal: #343A40;
-    --font-title1: clamp(1.625rem, 0.472rem + 4.341vw, 3.25rem);
-    --font-title2: clamp(1.25rem, 0.363rem + 3.339vw, 2.5rem);
-    --font-title3: clamp(1rem, 0.29rem + 2.671vw, 2rem);
-    --font-text1: clamp(0.625rem, 0.182rem + 1.669vw, 1.25rem);
-    --font-text2: clamp(0.55rem, 0.142rem + 1.536vw, 1.125rem);;
-    --font-text3: clamp(0.5rem, 0.145rem + 1.336vw, 1rem);    
+    --font-title1: clamp(2.5rem, 1.964rem + 1.429vw, 3.25rem);
+    --font-title2: clamp(2rem, 1.643rem + 0.952vw, 2.5rem);
+    --font-title3: clamp(1.5rem, 1.143rem + 0.952vw, 2rem);
+    --font-text1: clamp(0.9rem, 0.65rem + 0.667vw, 1.25rem);
+    --font-text2: clamp(1rem, 0.911rem + 0.238vw, 1.125rem);
+    --font-text3: clamp(0.8rem, 0.657rem + 0.381vw, 1rem);;    
 }
 
 
